@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/adarshakotwalgaupalika/landusequery/refs/heads/main/karaiyamai.csv";
+const csvUrl = "https://raw.githubusercontent.com/karaiyamai/landusequery/refs/heads/main/karaiyamai.csv";
 let csvData = [];
 
 // Fetch CSV data on page load
@@ -99,6 +99,7 @@ function displayResults(results) {
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
 
 
 
